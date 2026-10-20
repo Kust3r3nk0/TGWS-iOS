@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480" role="img" aria-labelledby="t d">
+<title id="t">TGWS-iOS — Native MTProto Proxy for iPhone</title>
+<desc id="d">Official project wordmark and conceptual iPhone network illustration. Development preview; network implementation is not complete.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080E1B"/><stop offset=".55" stop-color="#111E37"/><stop offset="1" stop-color="#082B3E"/></linearGradient>
+<linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#55A9FF"/><stop offset="1" stop-color="#75E3D4"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#178BE7" stop-opacity=".38"/><stop offset="1" stop-color="#178BE7" stop-opacity="0"/></radialGradient>
+<filter id="bloom"><feGaussianBlur stdDeviation="21"/></filter>
+</defs>
+<rect width="1440" height="480" rx="32" fill="url(#bg)"/>
+<circle cx="1088" cy="248" r="365" fill="url(#halo)"/>
+<g stroke="#58B9ED" stroke-opacity=".12" fill="none"><circle cx="1093" cy="247" r="168"/><circle cx="1093" cy="247" r="226"/><circle cx="1093" cy="247" r="286"/></g>
+<g stroke="url(#cyan)" stroke-width="2" stroke-opacity=".56" fill="none">
+<path d="M791 379C872 371 879 306 968 296"/><path d="M787 308C880 297 903 217 975 206"/><path d="M788 231C873 237 901 168 968 155"/>
+</g>
+<g fill="#77E5D4"><circle cx="968" cy="296" r="6"/><circle cx="975" cy="206" r="6"/><circle cx="968" cy="155" r="6"/></g>
+<g transform="translate(1010 48)">
+<rect x="0" y="0" width="205" height="386" rx="39" fill="#040913" stroke="#79AED2" stroke-opacity=".85" stroke-width="4"/>
+<rect x="10" y="11" width="185" height="364" rx="31" fill="#101E34"/>
+<rect x="72" y="17" width="61" height="15" rx="8" fill="#03070E"/>
+<path d="M35 278L67 246L94 269L131 202L170 169" fill="none" stroke="#6FE3D5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="68" cy="246" r="7" fill="#70D2FB"/><circle cx="131" cy="202" r="7" fill="#70D2FB"/>
+<circle cx="101" cy="147" r="51" fill="#3EA5F1" fill-opacity=".10" stroke="#58C6F9" stroke-opacity=".5" stroke-width="2"/>
+<path d="M80 148L96 164L123 128" stroke="#7CE7D5" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="102" y="329" text-anchor="middle" fill="#AFCCD9" font-size="13" font-family="Arial, Helvetica, sans-serif" letter-spacing="2">NATIVE iOS</text>
+</g>
+<text x="88" y="103" fill="#7FBEDE" font-size="18" letter-spacing="5" font-family="Arial, Helvetica, sans-serif">MAKAROV LAB'S 3.0™ / OPEN SOURCE</text>
+<text x="82" y="236" fill="#F3F9FF" font-family="Arial, Helvetica, sans-serif" font-size="103" font-weight="700" letter-spacing="-5">TGWS<tspan fill="#6BCEDB">-iOS</tspan></text>
+<rect x="88" y="267" width="496" height="2" fill="url(#cyan)" opacity=".75"/>
+<text x="90" y="327" fill="#D3E6F2" font-family="Arial, Helvetica, sans-serif" font-size="25">Нативный порт TGWS для iPhone</text>
+<text x="91" y="372" fill="#8DAEC3" font-family="Arial, Helvetica, sans-serif" font-size="18">Swift 6  ·  SwiftUI  ·  MTProto  ·  WSS / TCP</text>
+<rect x="89" y="407" width="246" height="34" rx="17" fill="#173D51" stroke="#2D788D"/>
+<text x="212" y="429" text-anchor="middle" fill="#90E5DE" font-size="14" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="1">DEVELOPMENT PREVIEW</text>
+</svg>
