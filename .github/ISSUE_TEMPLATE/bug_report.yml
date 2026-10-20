@@ -1,0 +1,50 @@
+name: Сообщить об ошибке
+description: Воспроизводимая проблема TGWS-iOS без секретов и персональных данных
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Не прикладывайте private Worker URL, MTProto secret, ключи или персональные сведения. Проблемы безопасности сообщайте конфиденциально — см. SECURITY.md."
+  - type: input
+    id: version
+    attributes:
+      label: Commit / версия
+      placeholder: "Commit SHA или версия тестовой сборки"
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Среда
+      options:
+        - iPhone (физическое устройство)
+        - iOS Simulator
+        - macOS / Xcode (сборка)
+        - Linux / Swift Package (тесты)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      description: Без секретов и приватных IP / URL
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидалось
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Получено
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Обезличенные логи / результаты тестов
+      description: Укажите реальные команды и категории ошибок, но не раскрывайте конфиденциальные поля.
