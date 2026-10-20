@@ -1,0 +1,15 @@
+name: Swift Core Tests
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  swift-core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: swift-actions/setup-swift@v2
+        with:
+          swift-version: '6.2'
+      - name: Run TGWSCore tests
+        run: cd Packages/TGWSCore && swift test
