@@ -1,0 +1,38 @@
+name: Предложить функцию
+description: Новая функция или улучшение TGWS-iOS
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Задача пользователя
+      description: Какую проблему решаем?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предложение
+      description: Что должно измениться?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Критерии приёмки
+      description: Как подтвердить результат реальными тестами?
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Этап проекта
+      options:
+        - F0 — iOS feasibility
+        - F1 — MTProto Core
+        - F2 — Direct / Relay transports
+        - F3 — Extended transports
+        - F4 — SwiftUI
+        - F5 — QA / Distribution
+        - Другое
